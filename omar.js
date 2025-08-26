@@ -231,6 +231,8 @@
       let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
     };
 
+    // Modiicar el archivo 
+
     // Persistencia sencilla
     const storage = {
       get(key, fallback) {
